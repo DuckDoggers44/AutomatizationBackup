@@ -19,7 +19,7 @@ pyautogui.hotkey('winleft', 'd')
 pyautogui.moveTo(332, 239)
 pyautogui.mouseDown()
 
-# Enquanto eu estiver arrastando o arquivo, mudo a tela para o drive na minha pasta e solto, após isso fecho o site 
+# Enquanto eu estiver arrastando o arquivo, mudo a tela para o drive na minha pasta e solto, após isso fecho o site.
 pyautogui.moveTo(1138, 277)
 pyautogui.hotkey('alt', 'tab')
 time.sleep(1)
